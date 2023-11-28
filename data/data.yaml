@@ -1,0 +1,365 @@
+---
+# yaml-language-server: $schema=./schema.json
+resume:
+  name: Michael Mehl
+  objective: I am a software engineer who loves his craft. My primary driving force as an engineer is curiosity, and I take deep pride in my background knowledge in the roots of computation and mathematics. I am passionate about open source software and the Linux ecosystem. I am looking for a position where I can make an impact while growing my knowledge and skills.
+  address: 98 Hammonds Lane Apt 213 Brooklyn Park, MD 21225
+  contact:
+    email: michaelalanmehl@gmail.com
+    github: https://github.com/mikemehl
+    phone: 410-599-5209
+    sourcehut: https://sr.ht/~micklemeal
+    website: https://mikemehl.com
+  education:
+    - address: 1000 Hilltop Cir Baltimore, MD 21250
+      degrees:
+        - B.S. in Computer Science
+        - B.A. in Mathematics
+      start_date: August 2016
+      end_date: December 2018
+      gpa: 3.8
+      highlights:
+        - Computer Science Department Magna Cum Laude
+        - Pi Mu Epsilon Mathematics Honor Society
+      name: University of Maryland, Baltimore County
+    - address: 101 College Pkwy Arnold, MD 21012
+      degrees:
+        - A.S. in Computer Science
+        - A.S. in Mathematics
+      start_date: January 2014
+      end_date: July 2016
+      gpa: 3.7
+      highlights:
+        - Mathematics Department Award, 2016
+      name: Anne Arundel Community College
+  experience:
+    - address: Remote
+      company: Very
+      brief: An IoT product development firm.
+      website: https://www.verytechnology.com
+      description: >-
+        I worked on the firmware for several IoT products for various clients, including 
+        utility, air quality, safety, and industrial applications. As a solo firmware engineer 
+        on most projects, I worked closely with hardware engineers, web developers, and 
+        graphic designers to develop new products and write firmware that meets clients' 
+        needs, while keeping a holistic system perspective. This role also featured daily
+        client interactions and travel for integration sessions.
+      position: Firmware Engineer
+      start_date: August 2021
+      end_date: Present
+      highlights:
+        - Utilized Buildroot and Nerves/Elixir in the development of an air quality monitoring
+          system for a custom hardware platform utilizing a Quectel cellular modem to connect with AWS.
+          This system was used to add connectivity to an existing line of products. Included integration
+          with a third party OTA platform.
+        - Improved the performance of a bare metal embedded system for a preseed client. The product was
+          an IoT utility monitoring system built on an ESP32 based platform, utilizing a LoRa radio.
+          After successfully improving their system, the client was able to secure seed funding and
+          successfully bring the product to market.
+        - Developed test firmware to aid with production line verification of functionality.
+        - Aided clients in preparing their products for FCC and UL certification.
+    - address: 7323 Aviation Blvd Baltimore, MD 21240
+      company: Northrop Grumman
+      brief: A Department Of Defense and Aerospace contractor.
+      website: https://www.northropgrumman.com
+      description: >-
+        I worked on the embedded software for several large radar systems, with areas of functionality including signal processing, 
+        radio control, target tracking, and data transport. As a key engineer on the team, 
+        I worked closely with systems engineers to implement new algorithms, perform lab 
+        testing, and improve performance.
+      position: Embedded Software Engineer
+      start_date: July 2017
+      end_date: August 2021
+      highlights:
+        - Architected and implemented a new search and target tracking algorithm in C++. The algorithm involved partitioning of
+          the search volume to utilize cutting edge hardware capabilities. Worked closely with systems and integration engineers to
+          implement the algorithm, develop host based test systems, optimize for the target platform, and verify functionality
+          during integration.
+        - Worked with a team to port a legacy radar system new hardware, including updating the software from a VxWorks based system to a
+          custom Linux distribution.
+        - Developed a testing application for replaying recorded radar data, allowing for rapid development and testing of new algorithms
+          from user workstations. This helped several engineers deliver early by allowing them to work independently from the integration lab.
+    - address: 101 College Pkwy Arnold, MD 21012
+      company: Anne Arundel Community College
+      brief: Educational institution.
+      description: >-
+        I tutored students at AACC's Math Lab, a walk in tutoring environment. I helped students 
+        to master the skills necessary for success in all mathematics subjects, from basic 
+        algebra to differential equations.
+      start_date: August 2016
+      end_date: July 2017
+      highlights: []
+      position: Mathematics Tutor
+  skills:
+    languages:
+      expert:
+        - C
+        - C++
+        - Python
+        - Lua
+        - Bash
+      proficient:
+        - Rust
+        - Go
+        - Elixir
+        - Scheme
+      basic:
+        - HTML
+        - CSS
+        - Typescript/JavaScript
+        - SQL
+        - Haskell
+    platforms:
+      - Linux
+      - Buildroot
+      - Nerves
+      - Zephyr
+      - AWS IoT
+      - Cellular
+      - LoRa
+      - ESP32
+      - IMX6
+    tools:
+      - Git
+      - Jira
+      - CircleCI
+      - GH Actions
+      - Docker
+      - Caddy
+      - Ansible
+      - GDB
+music:
+  - name: Euclid C Finder
+    link: https://euclidcfinder.com
+    dates:
+      - September 2017
+      - Present
+    instruments:
+      - "guitar (recordings)"
+      - "bass (recordings)"
+      - "vocals"
+      - "drum machine (early material)"
+    description: |
+      Math grind. Started as a solo project while I was in college, has evolved into
+      a legit band. Can't believe I made it this far already lol.
+    discography:
+      - album: The Mirror, My Weapon, I Love You
+        date: October 27th, 2023
+        brief: Angry, reflective, dissonant, and emotional mathgrind.
+        description: |
+          Recorded at God City in August 2022, our first recording as a full band. 
+          We stayed at the studio for the week to finish recording. Probably the 
+          single thing I'm most proud of.
+      - album: Euclid C Finder!
+        date: October 2018
+        brief: MySpace love letter mathgrind.
+        description: |
+          Second EP, recorded ~6 months after the first one at The Monster House in 
+          Waldorf, MD. I practiced relentlessly before recording and worked on these 
+          songs almost every day for months. I am the only performer on this record.
+      - album: A Standard Basis For The Set Of All Discontent
+        date: February 2018
+        brief: Raw mathgrind, with lots of MySpace and grind/power violence influences.
+        description: |
+          I originally intended this to just be a demo, but I ended up just releasing it. 
+          I was quite surprised with the response. Recorded on a Zoom R8 at my aparment and 
+          in my mom's basement. The guitar and bass is the Zoom R8 amp modeller lol.
+  - name: Egarra
+    link: https://egarra.bandcamp.com
+    dates:
+      - June 2015
+      - June 2016
+    instruments:
+      - "guitar (recordings)"
+      - "backing vocals (recordings)"
+    description: |
+      This is KTSG but grown up, and with kids.
+    discography:
+      - album: Demos
+        date: 2015
+        brief: Kiss The Surf Goodbye
+        description: |
+          There's actually two releases here, but they're very short so I'm going to lump them together.
+          Basically, Kiss The Sky Goodbye reborn, but with less of a focus on outright fury. This band was
+          very short lived (as all of my projects with Kyle and Jon were), but was a blast to play in.
+  - name: Neck First
+    link: https://neckfirst.bandcamp.com
+    dates:
+      - Winter 2011
+      - Winter 2014
+    instruments:
+      - "guitar"
+    description: |
+      Music nerds I didn't know that well asked me to join there band. Made some awesome friends and had
+      a lot of fun. Overall, two thumbs up.
+    discography:
+      - album: Split with The Head are Zeroes
+        date: Winter 2014
+        brief: Slowed down Neck First
+        description: |
+          My first vinyl release! I'm not a fan of how or side came out, but THAZ's side rules.
+          The release show for this had us and THAZ play a battle set in a Baltimore row home basement
+          with the crowd placed in between the two of us. One of my favorite shows of all time.
+      - album: I Can Feel My Skin Crawl
+        date: 2012
+        brief: Big brain math grind, bring yr calculators
+        description: |
+          Neck First was a lot of fun to play in. I mostly learned Sean's songs and tried to add more dissonance on top 
+          of what was already there. Some of these songs were pretty difficult to learn, but I think
+          we eventually figured out that if we just played them a lot, we'd eventually get the hang of it.
+  - name: Mherdad
+    link: https://mherdad.bandcamp.com
+    dates:
+      - Winter 2012
+      - Fall 2015
+    instruments:
+      - renoise
+      - ableton
+      - gameboy
+    description: |
+      My old breacore project! First time releasing electronic music. Lots of mashcore influences, but not mashcore.
+    discography:
+      - album: Follow The Yellow Chip Road
+        date: 2013
+        brief: Chiptunes made in the back of the Neck First van
+        description: |
+          I brought my DMG-01 and LSDJ with me for one of Neck First's tours, and made these songs
+          during the long drives. I love listening to this because it reminds me of all of those fun moments.
+      - album: Mherdad
+        date: 2013
+        brief: A leaner breakcore release, at 250 bpm
+        description: |
+          I focused a lot on cleaning up my production for this release. For whatever reason, 220bpm
+          was starting to sound slow to me, so a lot of these tracks ended up being around 250bpm. When I 
+          listen to it now, it sounds kind of ridiculous, but I love it. A lot of these songs I wish I had 
+          taken more time on, and was never quite happy with the final product. That said, people seemed to like 
+          it. Ultimately, it would be the death knell of my breakcore productions. The chopping on these albums was
+          all done manually with lots of resampling, and sitting in front of Renoise for hours to get a bar right
+          was exhausting. In the future, whenever I do make electronic music again, I'm going to focus on doing things
+          live rather than programming them in.
+      - album: Ragcore Anthems Volume I
+        date: 2012
+        brief: Chopping obsessed breakcore
+        description: |
+          Ahhh, my first electronic release. The production is muddy. The songs are goofy and a mish mash of moods. Most of
+          these songs follow the tried and true Mherdad forumla of rendering synth loops and chopping them together. It 
+          was alot of fun, and I miss it sometimes.
+  - name: Quantico 3mph
+    dates: 
+      - Fall 2010
+      - Fall 2010
+    instruments:
+      - guitar
+      - bass
+      - vocals
+      - drum machine
+    link: nil
+    description: |
+      I recorded four songs on my own in a very skramz/metalcore/power violence crossbreed style.
+      Just kind of did it, put it on MySpace, and called it a day. Fun fact: the first song on the first
+      Euclid C Finder EP is a cover of the first song on Quantico 3mph.
+    discography:
+      - album: 4 Song Demo
+        date: Fall 2010
+        brief: Proto ECF
+        description: |
+          Lost to time. Basically, ECF before ECF.
+  - name: Kiss The Sky Goodbye
+    link: https://kisstheskygoodbye.bandcamp.com
+    dates:
+      - "Fall 2008"
+      - "Fall 2009"
+    instruments:
+      - guitar
+      - bass (recording)
+    description: |
+      Pure anger from young extreme music fans with no way to understand the world around them.
+    discography:
+      - album: FUCK
+        date: Spring 2009
+        brief: A whirlwind of drum shred, noisy guitars, and pissed vocals.
+        description: |
+          This album haunted me for a long time. I joined this band shortly after they formed and 
+          released a little two song demo. It sounded kinda like converge, or like a "southern hardcore"
+          band that was in style at the time. Within four months, with a good share of member changes, it
+          sounded like the record. Our live shows were purposely violent, and we stuck to or idealistic guns
+          whenever we could. That said, this band was not healthy. I still love Jon and the rest of the band,
+          but I'm glad that most of us took the time to try to heal from whatever was eating at us.
+  - name: For Want Of
+    link: nil
+    dates: 
+      - Fall 2007
+      - Summer 2011
+    instruments:
+      - guitar
+      - bass (recordings)
+      - drum machine (recordings)
+    description: |
+      Synced delay pedal chill and roll. I started this band just out of high school by myself just 
+      recording my delay pedal doodles in my room. It was always a part time band. I think we only ever
+      played a single show. Me and Paul eventually tried to put together a full band around it, but it 
+      fell apart unfortunately. The newer stuff was rockier.
+    discography:
+      - album: Demo
+        date: Fall 2007
+        brief: The sound of a space case kid being....well, a space case.
+        description: |
+          Not much to say here that wasn't said above. A really unique time in my life. 
+  - name: Id Rather Be
+    link: nil
+    dates:
+      - Fall 2006
+      - Summer 2008
+    instruments:
+      - guitar
+    description: |
+      Fuck yeah mid 2000s metalcore! I joined this band as second guitar and made some awesome friends.
+      I have to say, of all of the bands I've ever been in, this was definitely the most fun. Our songs were
+      simple and pretty predictable metalcore of the era, and god damn it, we were awesome. People used to 
+      actually hardcore dance at our gigs, and it wasn't just a room of pretentious hardcore kids we'd play to.
+      We broke up once in the time period I have listed above, but did briefly reform.
+    discography:
+      - album: Demos
+        date: ???
+        brief: So many demos
+        description: |
+          I don't think we ever released a proper album, but we did release a bunch of demos. I remember
+          the first one was recorded live, with our amps stacked in a way to help with the room sound. It
+          was awful, but people still dug it. 
+  - name: Beware The Ides of March
+    website: nil
+    dates:
+      - Fall 2005
+      - Spring 2006
+    instruments:
+      - guitar
+      - drum machine
+    description: |
+      My first grind band. Started as a duo with a fairly straightforward grind sound, added a bassist and second
+      guitar later and got slightly mathier. We played two shows, one of which was an absolute disaster (I've never
+      had so many people walk out during a set). A foundation for things to come.
+    discography:
+      - album: Demos
+        date: ???
+        brief: Scattered demo recordings
+        description: |
+          God knows what happened to these tracks. There is an ancient recording of us playing somewhere on the internet.
+  - name: A Day In October
+    link: nil
+    dates:
+      - Spring 2005 
+      - Fall 2005
+    instruments:
+      - guitar
+    description: |
+      My first band, period. And we played pop punk. Who'd a thunk it? 
+      I left the band because I was too anxious to travel to practice one day. Yeah. Glad I'm 
+      finally getting all of that sorted out. Love these folks though, we had a lot of fun. Got to
+      play the county battle of the bands that year.
+    discography:
+      - album: Demos
+        date: ???
+        brief: Two demos? One demo? I don't remember.
+        description: |
+          I don't remember much about our songs, except how to play a couple and the weird place we
+          recorded at. That guy was strange. 

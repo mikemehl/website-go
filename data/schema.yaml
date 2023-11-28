@@ -1,0 +1,73 @@
+---
+title: Website Data Schema
+description: A schema for my website data
+type: object
+$defs:
+  languageSkills:
+    type: object
+    properties:
+      expert: { type: array, items: { type: string } }
+      proficient: { type: array, items: { type: string } }
+      basic: { type: array, items: { type: string } }
+  skills:
+    type: object
+    properties:
+      languages: { $ref: "#/$defs/languageSkills" }
+      platforms: { type: array, items: { type: string } }
+      tools: { type: array, items: { type: string } }
+  experienceEntry:
+    type: object
+    properties:
+      address: { type: string }
+      company: { type: string }
+      brief: { type: string }
+      website: { type: string }
+      description: { type: string }
+      startDate: { type: string }
+      endDate: { type: string }
+      highlights: { type: array, items: { type: string } }
+  educationEntry:
+    type: object
+    properties:
+      address: { type: string }
+      degrees: { type: array, items: [{ type: string }] }
+      startDate: { type: string }
+      endDate: { type: string }
+      gpa: { type: string }
+      highlights: { type: array, items: [{ type: string }] }
+  contactInfo:
+    type: object
+    properties:
+      email: { type: string }
+      github: { type: string }
+      phone: { type: string }
+      sourcehut: { type: string }
+      website: { type: string }
+  discographyEntry:
+    type: object
+    properties:
+      album: { type: string }
+      date: { type: string }
+      description: { type: string }
+      brief: { type: string }
+  musicProject:
+    type: object
+    properties:
+      name: { type: string }
+      link: { type: string }
+      dates: { type: array, items: { type: string } }
+      instruments: { type: array, items: { type: string } }
+      discography:
+        { type: array, items: { type: { $ref: "#/$defs/discographyEntry" } } }
+properties:
+  music: { type: [array], items: { type: [{ $ref: "#/$defs/musicProject" }] } }
+  resume:
+    type: object
+    properties:
+      name: { type: string }
+      objective: { type: string }
+      address: { type: string }
+      contact: { $ref: "#/$defs/contactInfo" }
+      education: { type: array, items: { $ref: "#/$defs/educationEntry" } }
+      experience: { type: array, items: { $ref: "#/$defs/experienceEntry" } }
+      skills: { $ref: "#/$defs/skills" }
