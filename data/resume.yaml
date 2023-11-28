@@ -1,0 +1,127 @@
+name: Michael Mehl
+objective: I am a software engineer who loves his craft. My primary driving force as an engineer is curiosity, and I take deep pride in my background knowledge in the roots of computation and mathematics. I am passionate about open source software and the Linux ecosystem. I am looking for a position where I can make an impact while growing my knowledge and skills.
+address: 98 Hammonds Lane Apt 213 Brooklyn Park, MD 21225
+contact:
+  email: michaelalanmehl@gmail.com
+  github: https://github.com/mikemehl
+  phone: 410-599-5209
+  sourcehut: https://sr.ht/~micklemeal
+  website: https://mikemehl.com
+education:
+  - address: 1000 Hilltop Cir Baltimore, MD 21250
+    degrees:
+      - B.S. in Computer Science
+      - B.A. in Mathematics
+    start_date: August 2016
+    end_date: December 2018
+    gpa: 3.8
+    highlights:
+      - Computer Science Department Magna Cum Laude
+      - Pi Mu Epsilon Mathematics Honor Society
+    name: University of Maryland, Baltimore County
+  - address: 101 College Pkwy Arnold, MD 21012
+    degrees:
+      - A.S. in Computer Science
+      - A.S. in Mathematics
+    start_date: January 2014
+    end_date: July 2016
+    gpa: 3.7
+    highlights:
+      - Mathematics Department Award, 2016
+    name: Anne Arundel Community College
+experience:
+  - address: Remote
+    company: Very
+    brief: An IoT product development firm.
+    website: https://www.verytechnology.com
+    description: >-
+      I worked on the firmware for several IoT products for various clients, including 
+      utility, air quality, safety, and industrial applications. As a solo firmware engineer 
+      on most projects, I worked closely with hardware engineers, web developers, and 
+      graphic designers to develop new products and write firmware that meets clients' 
+      needs, while keeping a holistic system perspective. This role also featured daily
+      client interactions and travel for integration sessions.
+    position: Firmware Engineer
+    start_date: August 2021
+    end_date: Present
+    highlights:
+      - Utilized Buildroot and Nerves/Elixir in the development of an air quality monitoring
+        system for a custom hardware platform utilizing a Quectel cellular modem to connect with AWS.
+        This system was used to add connectivity to an existing line of products. Included integration
+        with a third party OTA platform.
+      - Improved the performance of a bare metal embedded system for a preseed client. The product was
+        an IoT utility monitoring system built on an ESP32 based platform, utilizing a LoRa radio.
+        After successfully improving their system, the client was able to secure seed funding and
+        successfully bring the product to market.
+      - Developed test firmware to aid with production line verification of functionality.
+      - Aided clients in preparing their products for FCC and UL certification.
+  - address: 7323 Aviation Blvd Baltimore, MD 21240
+    company: Northrop Grumman
+    brief: A Department Of Defense and Aerospace contractor.
+    website: https://www.northropgrumman.com
+    description: >-
+      I worked on the embedded software for several large radar systems, with areas of functionality including signal processing, 
+      radio control, target tracking, and data transport. As a key engineer on the team, 
+      I worked closely with systems engineers to implement new algorithms, perform lab 
+      testing, and improve performance.
+    position: Embedded Software Engineer
+    start_date: July 2017
+    end_date: August 2021
+    highlights:
+      - Architected and implemented a new search and target tracking algorithm in C++. The algorithm involved partitioning of
+        the search volume to utilize cutting edge hardware capabilities. Worked closely with systems and integration engineers to
+        implement the algorithm, develop host based test systems, optimize for the target platform, and verify functionality
+        during integration.
+      - Worked with a team to port a legacy radar system new hardware, including updating the software from a VxWorks based system to a
+        custom Linux distribution.
+      - Developed a testing application for replaying recorded radar data, allowing for rapid development and testing of new algorithms
+        from user workstations. This helped several engineers deliver early by allowing them to work independently from the integration lab.
+  - address: 101 College Pkwy Arnold, MD 21012
+    company: Anne Arundel Community College
+    brief: Educational institution.
+    description: >-
+      I tutored students at AACC's Math Lab, a walk in tutoring environment. I helped students 
+      to master the skills necessary for success in all mathematics subjects, from basic 
+      algebra to differential equations.
+    start_date: August 2016
+    end_date: July 2017
+    highlights: []
+    position: Mathematics Tutor
+skills:
+  languages:
+    expert:
+      - C
+      - C++
+      - Python
+      - Lua
+      - Bash
+    proficient:
+      - Rust
+      - Go
+      - Elixir
+      - Scheme
+    basic:
+      - HTML
+      - CSS
+      - Typescript/JavaScript
+      - SQL
+      - Haskell
+  platforms:
+    - Linux
+    - Buildroot
+    - Nerves
+    - Zephyr
+    - AWS IoT
+    - Cellular
+    - LoRa
+    - ESP32
+    - IMX6
+  tools:
+    - Git
+    - Jira
+    - CircleCI
+    - GH Actions
+    - Docker
+    - Caddy
+    - Ansible
+    - GDB

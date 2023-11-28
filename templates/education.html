@@ -1,0 +1,18 @@
+<div class="container" id="content">
+  <h1>Education</h1>
+  <p> My academic background.</p>
+  {{range .education}}
+    <section>
+      <h2>{{ .name }}</h2>
+      <h3>Degree(s): {{ .degrees }}</h3>
+      <h4>Dates Attended: {{ .start_date }} - {{ .end_date }}</h4>
+      <h4>GPA: {{ .gpa }}</h4>
+      <h4>Highlights:</h4>
+      <ul>
+        {{range .highlights}}
+        <li>{{ . }}</li>
+        {{end}}
+    </section>
+    {{end}}
+  <a href="/intro">Home</a>
+</div>

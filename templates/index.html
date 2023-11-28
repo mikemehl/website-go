@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>/// m i k e / m e h l ///</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://unpkg.com/missing.css@1.1.1">
+  <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+</head>
+
+<body hx-boost="true" hx-target="#content" hx-select="#content" hx-swap="outerHTML">
+  <div class="container">
+    <header class="padding-end">
+      <h1 class="text-align:center fullbleed mono-font massivetext">/// m i k e / m e h l ///</h1>
+      <nav class="nabvbar autodensity">
+        <a href="/intro">Home</a> |
+        <a href="/experience">Experience</a> |
+        <a href="/education">Education</a> |
+        <a href="/skills">Skills</a> |
+        <a href="https://mikemehl.prose.sh" hx-boost="false">Blog</a> |
+        <a href="/static/resume.pdf" hx-boost="false">Resume</a>
+      </nav>
+    </header>
+    <main>
+      {{ block "content" .about}}
+      <div class="container" id="content" hx-trigger="revealed" hx-get="/intro">
+      </div>
+      {{end}}
+    </main>
+    <footer>
+      <a href="mailto:michaelalanmehl@gmail.com" hx-boost="false">email: michaelalanmehl@gmail.com</a> |
+      <a href="https://github.com/mikemehl" hx-boost="false">github</a> |
+      <a href="https://git.sr.ht/~micklemeal" hx-boost="false">sourcehut</a>
+    </footer>
+  </div>
+</body>
+
+</html>

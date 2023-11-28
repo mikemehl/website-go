@@ -1,0 +1,30 @@
+<div class="container" id="content">
+  <h1>Music</h1>
+  <p>I've participated in a lot of musical projects throughout my life, and if there's one thing I regret, it's not
+    documenting them more. I have a lot of fond memories of playing music with people, and even though there are some
+    bad times associated with some of these projects, I still don't want to forget them. Playing music has been the
+    pillar of my life, the one constant that I can't escape.
+    So, here's a a list of projects I've been a part of. I've included as much information as I can remember, but some
+    might be inaccurate (particularly the early ones).
+    For dates and discographies listed, I am only including the time I was a part of the project, not the entire history
+    of the project.
+  </p>
+  {{range .music}}
+  <section>
+    <h2>{{.name}}</h2>
+    <h3>{{.brief}}</h3>
+    <h4>{{.start_date}} - {{.end_date}}</h4>
+    <p>{{.description}}</p>
+    <h3>Discography::</h3>
+    <ul>
+      {{range .discography}}
+      <li><b>{{.name}} {{.year}}</b>
+        <a href="{{.link}}">Link</a>
+        {{ .description }}
+      </li>
+      {{end}}
+    </ul>
+  </section>
+  {{end}}
+  <a href="/intro">Home</a>
+</div>

@@ -1,0 +1,28 @@
+<div class="container" id="content">
+  <h1>Skills</h1>
+  <p>Here are some of the skills I've learned and used in my work.</p>
+  <details>
+    <summary>Programming Languages</summary>
+    <ul>
+      {{range .skills.languages}}
+      <li>{{ . }}</li>
+      {{end}}
+    </ul>
+  </details>
+  <details>
+    <summary>Platforms</summary>
+    <ul>
+      {{range .skills.platforms}}
+      <li>{{ . }}</li>
+      {{end}}
+    </ul>
+  </details>
+  <details>
+    <summary>Tools</summary>
+    <ul>
+      {{range .skills.tools}}
+      <li>{{ . }}</li>
+      {{end}}
+    </ul>
+  </details>
+</div>

@@ -1,0 +1,79 @@
+project "Euclid C Finder" {
+  link "https://euclidcfinder.bandcamp.com"
+  dates "August 2017" "Present"
+  instruments "guitar (recordings)" "bass (recordings)" "drum machine (early recordings/live)" "vocals"
+  discography {
+    album "The Mirror, My Weapon, I Love You" date="October 27, 2023" description=r#" "# link="https://euclidcfinder.bandcamp.com/album/the-mirror-my-weapon-i-love-you"
+    album "Recollections 2018-202" date="" description=r#" "#
+    album "Euclid C Finder!" date="" description=r#" "#
+    album "A Standard Basis For The Set of All Discontent" date="" description=r#" "#
+  }
+}
+project "Egarra" {
+  link "https://egarra.bandcamp.com"
+  dates "August 2015" "June 2016"
+  instruments "guitar" "backup vocals (recordings)"
+  discography {
+    album "Demo 2" date="" description=r#" "#
+    album "Demo 1" date="" description=r#" "#
+  }
+}
+project "Neck First" {
+  link "https://neckfirst.bandcamp.com"
+  dates "Fall 2011" "January 2015"
+  instruments "guitar"
+  discography {
+    album "Split with The Heads Are Zeroes" date="" description=r#" "#
+    album "I Can Feel My Skin Crawl" date="" description=r#" "#
+  }
+}
+project "Mherdad" {
+  link "https://mherdad.bandcamp.com"
+  dates "Spring 2011" "Winter 2014"
+  instruments "renoise" "ableton"
+  discography {
+    album "Follow The Yellow Chip Road" date="" description=r#" "#
+    album "Mherdad" date="" description=r#" "#
+    album "Ragcore Anthems Volume 1" date="" description=r#" "#
+  }
+}
+project "Kiss The Sky Goodbye" {
+  link "https://kisstheskygoodbye.bandcamp.com"
+  dates "Fall 2008" "Fall 2009"
+  instruments "guitar"
+  discography {
+    album "FUCK" date="Spring 2009" description=r#" "#
+  }
+}
+project "For Want Of" {
+  link "https://myspace.com/forwantof"
+  dates "Summer 2007" "Summer 2011"
+  instruments "guitar" "drum machine (recordings)" "bass (recordings)"
+  discography {
+    album "Demo 2007" date="" description=r#" "#
+  }
+}
+project "I'd Rather Be" {
+  link "https://myspace.com/idratherbe"
+  dates "Fall 2006" "Spring 2008"
+  instruments "guitar"
+  discography {
+    album "Demos" date="" description=r#" "#
+  }
+}
+project "Beware The Ides Of March" {
+  link "https://myspace.com/bewaretheidesofmarch"
+  dates "Fall 2005" "Spring 2006"
+  instruments "guitar" "drum machine"
+  discography {
+    album "Demos 2005" date="" description=r#" "#
+  }
+}
+project "A Day In October" {
+  link "https://myspace.com/adayinoctober"
+  dates "Spring 2005" "Spring 2006"
+  instruments "guitar"
+  discography {
+    album "Demo 2 2005" date="" description=r#" "#
+  }
+}
